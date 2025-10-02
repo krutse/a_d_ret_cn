@@ -1,0 +1,226 @@
+2025-10-02 16:48:52,505: root - INFO: ===Start logger ====================================
+2025-10-02 16:48:52,508: root - INFO: Начало работы скрипта загрузки данных продаж.
+2025-10-02 16:48:52,683: root - INFO: Обработка файла: 10_1.csv
+2025-10-02 16:48:52,760: root - ERROR: Ошибка массовой загрузки файла 10_1.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(10, 1, 2025-10-01 00:00:00, 3844-DB-1, Сковорода сред., Посуда, 10) already exists.\n')
+2025-10-02 16:48:52,760: root - INFO: Начало построчной загрузки файла 10_1.csv в БД
+2025-10-02 16:48:53,088: root - ERROR: Ошибка загрузки строки 474 файла 10_1.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(10, 1, 2025-10-01 00:00:00, 3844-DB-1, Сковорода сред., Посуда, 10) already exists.\n')
+2025-10-02 16:48:53,149: root - INFO: Окончание построчной загрузки файла 10_1.csv в БД
+2025-10-02 16:48:53,150: root - INFO: Обработка файла: 10_2.csv
+2025-10-02 16:48:53,194: root - INFO: Массовая загрузка файла 10_2.csv в БД завершена
+2025-10-02 16:48:53,196: root - INFO: Файл 10_2.csv удален
+2025-10-02 16:48:53,196: root - INFO: Обработка файла: 10_3.csv
+2025-10-02 16:48:53,252: root - INFO: Массовая загрузка файла 10_3.csv в БД завершена
+2025-10-02 16:48:53,253: root - INFO: Файл 10_3.csv удален
+2025-10-02 16:48:53,254: root - INFO: Обработка файла: 10_4.csv
+2025-10-02 16:48:53,293: root - INFO: Массовая загрузка файла 10_4.csv в БД завершена
+2025-10-02 16:48:53,294: root - INFO: Файл 10_4.csv удален
+2025-10-02 16:48:53,295: root - INFO: Обработка файла: 10_5.csv
+2025-10-02 16:48:53,338: root - INFO: Массовая загрузка файла 10_5.csv в БД завершена
+2025-10-02 16:48:53,338: root - INFO: Файл 10_5.csv удален
+2025-10-02 16:48:53,339: root - INFO: Обработка файла: 1_1.csv
+2025-10-02 16:48:53,374: root - INFO: Массовая загрузка файла 1_1.csv в БД завершена
+2025-10-02 16:48:53,375: root - INFO: Файл 1_1.csv удален
+2025-10-02 16:48:53,375: root - INFO: Обработка файла: 1_2.csv
+2025-10-02 16:48:53,419: root - INFO: Массовая загрузка файла 1_2.csv в БД завершена
+2025-10-02 16:48:53,420: root - INFO: Файл 1_2.csv удален
+2025-10-02 16:48:53,420: root - INFO: Обработка файла: 1_3.csv
+2025-10-02 16:48:53,459: root - INFO: Массовая загрузка файла 1_3.csv в БД завершена
+2025-10-02 16:48:53,460: root - INFO: Файл 1_3.csv удален
+2025-10-02 16:48:53,460: root - INFO: Обработка файла: 1_4.csv
+2025-10-02 16:48:53,511: root - INFO: Массовая загрузка файла 1_4.csv в БД завершена
+2025-10-02 16:48:53,512: root - INFO: Файл 1_4.csv удален
+2025-10-02 16:48:53,512: root - INFO: Обработка файла: 1_5.csv
+2025-10-02 16:48:53,554: root - INFO: Массовая загрузка файла 1_5.csv в БД завершена
+2025-10-02 16:48:53,555: root - INFO: Файл 1_5.csv удален
+2025-10-02 16:48:53,555: root - INFO: Обработка файла: 1_6.csv
+2025-10-02 16:48:53,606: root - INFO: Массовая загрузка файла 1_6.csv в БД завершена
+2025-10-02 16:48:53,607: root - INFO: Файл 1_6.csv удален
+2025-10-02 16:48:53,608: root - INFO: Обработка файла: 2_1.csv
+2025-10-02 16:48:53,647: root - INFO: Массовая загрузка файла 2_1.csv в БД завершена
+2025-10-02 16:48:53,648: root - INFO: Файл 2_1.csv удален
+2025-10-02 16:48:53,648: root - INFO: Обработка файла: 2_2.csv
+2025-10-02 16:48:53,711: root - INFO: Массовая загрузка файла 2_2.csv в БД завершена
+2025-10-02 16:48:53,712: root - INFO: Файл 2_2.csv удален
+2025-10-02 16:48:53,712: root - INFO: Обработка файла: 2_3.csv
+2025-10-02 16:48:53,762: root - ERROR: Ошибка массовой загрузки файла 2_3.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(2, 3, 2025-10-01 00:00:00, 9662-ED-3, Сковорода мал., Посуда, 11) already exists.\n')
+2025-10-02 16:48:53,763: root - INFO: Начало построчной загрузки файла 2_3.csv в БД
+2025-10-02 16:48:53,989: root - ERROR: Ошибка загрузки строки 311 файла 2_3.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(2, 3, 2025-10-01 00:00:00, 9662-ED-3, Сковорода мал., Посуда, 11) already exists.\n')
+2025-10-02 16:48:54,027: root - INFO: Окончание построчной загрузки файла 2_3.csv в БД
+2025-10-02 16:48:54,027: root - INFO: Обработка файла: 2_4.csv
+2025-10-02 16:48:54,071: root - INFO: Массовая загрузка файла 2_4.csv в БД завершена
+2025-10-02 16:48:54,071: root - INFO: Файл 2_4.csv удален
+2025-10-02 16:48:54,072: root - INFO: Обработка файла: 3_1.csv
+2025-10-02 16:48:54,106: root - INFO: Массовая загрузка файла 3_1.csv в БД завершена
+2025-10-02 16:48:54,107: root - INFO: Файл 3_1.csv удален
+2025-10-02 16:48:54,107: root - INFO: Обработка файла: 3_2.csv
+2025-10-02 16:48:54,145: root - INFO: Массовая загрузка файла 3_2.csv в БД завершена
+2025-10-02 16:48:54,145: root - INFO: Файл 3_2.csv удален
+2025-10-02 16:48:54,146: root - INFO: Обработка файла: 3_3.csv
+2025-10-02 16:48:54,184: root - INFO: Массовая загрузка файла 3_3.csv в БД завершена
+2025-10-02 16:48:54,185: root - INFO: Файл 3_3.csv удален
+2025-10-02 16:48:54,185: root - INFO: Обработка файла: 3_4.csv
+2025-10-02 16:48:54,233: root - INFO: Массовая загрузка файла 3_4.csv в БД завершена
+2025-10-02 16:48:54,235: root - INFO: Файл 3_4.csv удален
+2025-10-02 16:48:54,235: root - INFO: Обработка файла: 3_5.csv
+2025-10-02 16:48:54,294: root - ERROR: Ошибка массовой загрузки файла 3_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(3, 5, 2025-10-01 00:00:00, 7863-CA-5, Пиджак дет., Одежда, 11) already exists.\n')
+2025-10-02 16:48:54,295: root - INFO: Начало построчной загрузки файла 3_5.csv в БД
+2025-10-02 16:48:54,699: root - ERROR: Ошибка загрузки строки 559 файла 3_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(3, 5, 2025-10-01 00:00:00, 7863-CA-5, Пиджак дет., Одежда, 11) already exists.\n')
+2025-10-02 16:48:54,726: root - INFO: Окончание построчной загрузки файла 3_5.csv в БД
+2025-10-02 16:48:54,726: root - INFO: Обработка файла: 4_1.csv
+2025-10-02 16:48:54,781: root - INFO: Массовая загрузка файла 4_1.csv в БД завершена
+2025-10-02 16:48:54,782: root - INFO: Файл 4_1.csv удален
+2025-10-02 16:48:54,782: root - INFO: Обработка файла: 4_2.csv
+2025-10-02 16:48:54,843: root - ERROR: Ошибка массовой загрузки файла 4_2.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(4, 2, 2025-10-01 00:00:00, 3410-DA-2, Средство моющее 0.5 л., Бытовая химия, 3) already exists.\n')
+2025-10-02 16:48:54,843: root - INFO: Начало построчной загрузки файла 4_2.csv в БД
+2025-10-02 16:48:55,104: root - ERROR: Ошибка загрузки строки 343 файла 4_2.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(4, 2, 2025-10-01 00:00:00, 3410-DA-2, Средство моющее 0.5 л., Бытовая химия, 3) already exists.\n')
+2025-10-02 16:48:55,265: root - INFO: Окончание построчной загрузки файла 4_2.csv в БД
+2025-10-02 16:48:55,266: root - INFO: Обработка файла: 4_3.csv
+2025-10-02 16:48:55,340: root - ERROR: Ошибка массовой загрузки файла 4_3.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(4, 3, 2025-10-01 00:00:00, 6700-DA-3, Пиджак муж., Одежда, 6) already exists.\n')
+2025-10-02 16:48:55,341: root - INFO: Начало построчной загрузки файла 4_3.csv в БД
+2025-10-02 16:48:55,568: root - ERROR: Ошибка загрузки строки 314 файла 4_3.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(4, 3, 2025-10-01 00:00:00, 6700-DA-3, Пиджак муж., Одежда, 6) already exists.\n')
+2025-10-02 16:48:55,678: root - INFO: Окончание построчной загрузки файла 4_3.csv в БД
+2025-10-02 16:48:55,679: root - INFO: Обработка файла: 4_4.csv
+2025-10-02 16:48:55,707: root - INFO: Массовая загрузка файла 4_4.csv в БД завершена
+2025-10-02 16:48:55,708: root - INFO: Файл 4_4.csv удален
+2025-10-02 16:48:55,708: root - INFO: Обработка файла: 4_5.csv
+2025-10-02 16:48:55,756: root - ERROR: Ошибка массовой загрузки файла 4_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(4, 5, 2025-10-01 00:00:00, 5143-DE-5, Сковорода мал., Посуда, 1) already exists.\n')
+2025-10-02 16:48:55,757: root - INFO: Начало построчной загрузки файла 4_5.csv в БД
+2025-10-02 16:48:55,895: root - ERROR: Ошибка загрузки строки 217 файла 4_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(4, 5, 2025-10-01 00:00:00, 5143-DE-5, Сковорода мал., Посуда, 1) already exists.\n')
+2025-10-02 16:48:56,183: root - INFO: Окончание построчной загрузки файла 4_5.csv в БД
+2025-10-02 16:48:56,183: root - INFO: Обработка файла: 4_6.csv
+2025-10-02 16:48:56,225: root - INFO: Массовая загрузка файла 4_6.csv в БД завершена
+2025-10-02 16:48:56,226: root - INFO: Файл 4_6.csv удален
+2025-10-02 16:48:56,226: root - INFO: Обработка файла: 5_1.csv
+2025-10-02 16:48:56,270: root - INFO: Массовая загрузка файла 5_1.csv в БД завершена
+2025-10-02 16:48:56,271: root - INFO: Файл 5_1.csv удален
+2025-10-02 16:48:56,271: root - INFO: Обработка файла: 5_2.csv
+2025-10-02 16:48:56,315: root - INFO: Массовая загрузка файла 5_2.csv в БД завершена
+2025-10-02 16:48:56,316: root - INFO: Файл 5_2.csv удален
+2025-10-02 16:48:56,317: root - INFO: Обработка файла: 5_3.csv
+2025-10-02 16:48:56,371: root - INFO: Массовая загрузка файла 5_3.csv в БД завершена
+2025-10-02 16:48:56,372: root - INFO: Файл 5_3.csv удален
+2025-10-02 16:48:56,372: root - INFO: Обработка файла: 5_4.csv
+2025-10-02 16:48:56,420: root - ERROR: Ошибка массовой загрузки файла 5_4.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(5, 4, 2025-10-01 00:00:00, 2593-CE-4, Дезинфицирующий спрей 0.5 л., Бытовая химия, 7) already exists.\n')
+2025-10-02 16:48:56,420: root - INFO: Начало построчной загрузки файла 5_4.csv в БД
+2025-10-02 16:48:56,617: root - ERROR: Ошибка загрузки строки 273 файла 5_4.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(5, 4, 2025-10-01 00:00:00, 2593-CE-4, Дезинфицирующий спрей 0.5 л., Бытовая химия, 7) already exists.\n')
+2025-10-02 16:48:56,683: root - INFO: Окончание построчной загрузки файла 5_4.csv в БД
+2025-10-02 16:48:56,683: root - INFO: Обработка файла: 5_5.csv
+2025-10-02 16:48:56,729: root - ERROR: Ошибка массовой загрузки файла 5_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(5, 5, 2025-10-01 00:00:00, 4745-ED-5, Пиджак дет., Одежда, 8) already exists.\n')
+2025-10-02 16:48:56,730: root - INFO: Начало построчной загрузки файла 5_5.csv в БД
+2025-10-02 16:48:56,852: root - ERROR: Ошибка загрузки строки 150 файла 5_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(5, 5, 2025-10-01 00:00:00, 4745-ED-5, Пиджак дет., Одежда, 8) already exists.\n')
+2025-10-02 16:48:57,014: root - INFO: Окончание построчной загрузки файла 5_5.csv в БД
+2025-10-02 16:48:57,014: root - INFO: Обработка файла: 6_1.csv
+2025-10-02 16:48:57,047: root - INFO: Массовая загрузка файла 6_1.csv в БД завершена
+2025-10-02 16:48:57,048: root - INFO: Файл 6_1.csv удален
+2025-10-02 16:48:57,048: root - INFO: Обработка файла: 6_2.csv
+2025-10-02 16:48:57,111: root - INFO: Массовая загрузка файла 6_2.csv в БД завершена
+2025-10-02 16:48:57,112: root - INFO: Файл 6_2.csv удален
+2025-10-02 16:48:57,112: root - INFO: Обработка файла: 6_3.csv
+2025-10-02 16:48:57,156: root - INFO: Массовая загрузка файла 6_3.csv в БД завершена
+2025-10-02 16:48:57,157: root - INFO: Файл 6_3.csv удален
+2025-10-02 16:48:57,157: root - INFO: Обработка файла: 6_4.csv
+2025-10-02 16:48:57,207: root - INFO: Массовая загрузка файла 6_4.csv в БД завершена
+2025-10-02 16:48:57,212: root - INFO: Файл 6_4.csv удален
+2025-10-02 16:48:57,231: root - INFO: Обработка файла: 6_5.csv
+2025-10-02 16:48:57,276: root - INFO: Массовая загрузка файла 6_5.csv в БД завершена
+2025-10-02 16:48:57,277: root - INFO: Файл 6_5.csv удален
+2025-10-02 16:48:57,277: root - INFO: Обработка файла: 6_6.csv
+2025-10-02 16:48:57,313: root - INFO: Массовая загрузка файла 6_6.csv в БД завершена
+2025-10-02 16:48:57,314: root - INFO: Файл 6_6.csv удален
+2025-10-02 16:48:57,314: root - INFO: Обработка файла: 6_7.csv
+2025-10-02 16:48:57,350: root - INFO: Массовая загрузка файла 6_7.csv в БД завершена
+2025-10-02 16:48:57,351: root - INFO: Файл 6_7.csv удален
+2025-10-02 16:48:57,351: root - INFO: Обработка файла: 6_8.csv
+2025-10-02 16:48:57,398: root - INFO: Массовая загрузка файла 6_8.csv в БД завершена
+2025-10-02 16:48:57,399: root - INFO: Файл 6_8.csv удален
+2025-10-02 16:48:57,399: root - INFO: Обработка файла: 7_1.csv
+2025-10-02 16:48:57,457: root - ERROR: Ошибка массовой загрузки файла 7_1.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 1, 2025-10-01 00:00:00, 7864-AD-1, Полотенце махровое цв. зеленый, Текстиль, 14) already exists.\n')
+2025-10-02 16:48:57,458: root - INFO: Начало построчной загрузки файла 7_1.csv в БД
+2025-10-02 16:48:57,828: root - ERROR: Ошибка загрузки строки 409 файла 7_1.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 1, 2025-10-01 00:00:00, 7864-AD-1, Полотенце махровое цв. зеленый, Текстиль, 14) already exists.\n')
+2025-10-02 16:48:57,892: root - ERROR: Ошибка загрузки строки 438 файла 7_1.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 1, 2025-10-01 00:00:00, 6508-AD-1, Дезинфицирующий спрей 1 л., Бытовая химия, 12) already exists.\n')
+2025-10-02 16:48:57,966: root - INFO: Окончание построчной загрузки файла 7_1.csv в БД
+2025-10-02 16:48:57,967: root - INFO: Обработка файла: 7_10.csv
+2025-10-02 16:48:58,023: root - INFO: Массовая загрузка файла 7_10.csv в БД завершена
+2025-10-02 16:48:58,024: root - INFO: Файл 7_10.csv удален
+2025-10-02 16:48:58,024: root - INFO: Обработка файла: 7_2.csv
+2025-10-02 16:48:58,067: root - INFO: Массовая загрузка файла 7_2.csv в БД завершена
+2025-10-02 16:48:58,068: root - INFO: Файл 7_2.csv удален
+2025-10-02 16:48:58,068: root - INFO: Обработка файла: 7_3.csv
+2025-10-02 16:48:58,122: root - INFO: Массовая загрузка файла 7_3.csv в БД завершена
+2025-10-02 16:48:58,123: root - INFO: Файл 7_3.csv удален
+2025-10-02 16:48:58,123: root - INFO: Обработка файла: 7_4.csv
+2025-10-02 16:48:58,172: root - INFO: Массовая загрузка файла 7_4.csv в БД завершена
+2025-10-02 16:48:58,173: root - INFO: Файл 7_4.csv удален
+2025-10-02 16:48:58,173: root - INFO: Обработка файла: 7_5.csv
+2025-10-02 16:48:58,221: root - ERROR: Ошибка массовой загрузки файла 7_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 5, 2025-10-01 00:00:00, 9000-BC-5, Сковорода сред., Посуда, 14) already exists.\n')
+2025-10-02 16:48:58,221: root - INFO: Начало построчной загрузки файла 7_5.csv в БД
+2025-10-02 16:48:58,499: root - ERROR: Ошибка загрузки строки 357 файла 7_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 5, 2025-10-01 00:00:00, 9000-BC-5, Сковорода сред., Посуда, 14) already exists.\n')
+2025-10-02 16:48:58,652: root - INFO: Окончание построчной загрузки файла 7_5.csv в БД
+2025-10-02 16:48:58,652: root - INFO: Обработка файла: 7_6.csv
+2025-10-02 16:48:58,737: root - INFO: Массовая загрузка файла 7_6.csv в БД завершена
+2025-10-02 16:48:58,737: root - INFO: Файл 7_6.csv удален
+2025-10-02 16:48:58,737: root - INFO: Обработка файла: 7_7.csv
+2025-10-02 16:48:58,800: root - INFO: Массовая загрузка файла 7_7.csv в БД завершена
+2025-10-02 16:48:58,800: root - INFO: Файл 7_7.csv удален
+2025-10-02 16:48:58,800: root - INFO: Обработка файла: 7_8.csv
+2025-10-02 16:48:58,845: root - ERROR: Ошибка массовой загрузки файла 7_8.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 8, 2025-10-01 00:00:00, 2148-EA-8, Футболка белая муж., Одежда, 9) already exists.\n')
+2025-10-02 16:48:58,846: root - INFO: Начало построчной загрузки файла 7_8.csv в БД
+2025-10-02 16:48:58,951: root - ERROR: Ошибка загрузки строки 132 файла 7_8.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 8, 2025-10-01 00:00:00, 2148-EA-8, Футболка белая муж., Одежда, 9) already exists.\n')
+2025-10-02 16:48:59,141: root - INFO: Окончание построчной загрузки файла 7_8.csv в БД
+2025-10-02 16:48:59,142: root - INFO: Обработка файла: 7_9.csv
+2025-10-02 16:48:59,191: root - ERROR: Ошибка массовой загрузки файла 7_9.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 9, 2025-10-01 00:00:00, 8227-DE-9, Дезинфицирующий спрей 0.75 л., Бытовая химия, 6) already exists.\n')
+2025-10-02 16:48:59,191: root - INFO: Начало построчной загрузки файла 7_9.csv в БД
+2025-10-02 16:48:59,417: root - ERROR: Ошибка загрузки строки 233 файла 7_9.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(7, 9, 2025-10-01 00:00:00, 8227-DE-9, Дезинфицирующий спрей 0.75 л., Бытовая химия, 6) already exists.\n')
+2025-10-02 16:48:59,632: root - INFO: Окончание построчной загрузки файла 7_9.csv в БД
+2025-10-02 16:48:59,632: root - INFO: Обработка файла: 8_1.csv
+2025-10-02 16:48:59,682: root - ERROR: Ошибка массовой загрузки файла 8_1.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 1, 2025-10-01 00:00:00, 2491-AA-1, Кастрюля мал., Посуда, 9) already exists.\n')
+2025-10-02 16:48:59,683: root - INFO: Начало построчной загрузки файла 8_1.csv в БД
+2025-10-02 16:48:59,785: root - ERROR: Ошибка загрузки строки 122 файла 8_1.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 1, 2025-10-01 00:00:00, 2491-AA-1, Кастрюля мал., Посуда, 9) already exists.\n')
+2025-10-02 16:49:00,055: root - ERROR: Ошибка загрузки строки 444 файла 8_1.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 1, 2025-10-01 00:00:00, 6091-AA-1, Куртка осенняя муж., Одежда, 4) already exists.\n')
+2025-10-02 16:49:00,123: root - INFO: Окончание построчной загрузки файла 8_1.csv в БД
+2025-10-02 16:49:00,123: root - INFO: Обработка файла: 8_2.csv
+2025-10-02 16:49:00,170: root - ERROR: Ошибка массовой загрузки файла 8_2.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 2, 2025-10-01 00:00:00, 5600-EC-2, Салатник мал., Посуда, 3) already exists.\n')
+2025-10-02 16:49:00,170: root - INFO: Начало построчной загрузки файла 8_2.csv в БД
+2025-10-02 16:49:00,390: root - ERROR: Ошибка загрузки строки 198 файла 8_2.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 2, 2025-10-01 00:00:00, 5600-EC-2, Салатник мал., Посуда, 3) already exists.\n')
+2025-10-02 16:49:00,468: root - INFO: Окончание построчной загрузки файла 8_2.csv в БД
+2025-10-02 16:49:00,468: root - INFO: Обработка файла: 8_3.csv
+2025-10-02 16:49:00,559: root - INFO: Массовая загрузка файла 8_3.csv в БД завершена
+2025-10-02 16:49:00,560: root - INFO: Файл 8_3.csv удален
+2025-10-02 16:49:00,560: root - INFO: Обработка файла: 8_4.csv
+2025-10-02 16:49:00,609: root - INFO: Массовая загрузка файла 8_4.csv в БД завершена
+2025-10-02 16:49:00,610: root - INFO: Файл 8_4.csv удален
+2025-10-02 16:49:00,611: root - INFO: Обработка файла: 8_5.csv
+2025-10-02 16:49:00,690: root - ERROR: Ошибка массовой загрузки файла 8_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 5, 2025-10-01 00:00:00, 5063-BE-5, Салатник мал., Посуда, 2) already exists.\n')
+2025-10-02 16:49:00,690: root - INFO: Начало построчной загрузки файла 8_5.csv в БД
+2025-10-02 16:49:01,187: root - ERROR: Ошибка загрузки строки 540 файла 8_5.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 5, 2025-10-01 00:00:00, 5063-BE-5, Салатник мал., Посуда, 2) already exists.\n')
+2025-10-02 16:49:01,236: root - INFO: Окончание построчной загрузки файла 8_5.csv в БД
+2025-10-02 16:49:01,237: root - INFO: Обработка файла: 8_6.csv
+2025-10-02 16:49:01,305: root - ERROR: Ошибка массовой загрузки файла 8_6.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 6, 2025-10-01 00:00:00, 5515-BB-6, Средство моющее 0.5 л., Бытовая химия, 3) already exists.\n')
+2025-10-02 16:49:01,306: root - INFO: Начало построчной загрузки файла 8_6.csv в БД
+2025-10-02 16:49:01,393: root - ERROR: Ошибка загрузки строки 101 файла 8_6.csv: UniqueViolation('duplicate key value violates unique constraint "sales_pkey"\nDETAIL:  Key (shop_num, cash_num, doc_date, doc_id, item, category, amount)=(8, 6, 2025-10-01 00:00:00, 5515-BB-6, Средство моющее 0.5 л., Бытовая химия, 3) already exists.\n')
+2025-10-02 16:49:01,557: root - INFO: Окончание построчной загрузки файла 8_6.csv в БД
+2025-10-02 16:49:01,558: root - INFO: Обработка файла: 8_7.csv
+2025-10-02 16:49:01,657: root - INFO: Массовая загрузка файла 8_7.csv в БД завершена
+2025-10-02 16:49:01,658: root - INFO: Файл 8_7.csv удален
+2025-10-02 16:49:01,658: root - INFO: Обработка файла: 8_8.csv
+2025-10-02 16:49:01,696: root - INFO: Массовая загрузка файла 8_8.csv в БД завершена
+2025-10-02 16:49:01,697: root - INFO: Файл 8_8.csv удален
+2025-10-02 16:49:01,697: root - INFO: Обработка файла: 8_9.csv
+2025-10-02 16:49:01,740: root - INFO: Массовая загрузка файла 8_9.csv в БД завершена
+2025-10-02 16:49:01,741: root - INFO: Файл 8_9.csv удален
+2025-10-02 16:49:01,742: root - INFO: Обработка файла: 9_1.csv
+2025-10-02 16:49:01,805: root - INFO: Массовая загрузка файла 9_1.csv в БД завершена
+2025-10-02 16:49:01,806: root - INFO: Файл 9_1.csv удален
+2025-10-02 16:49:01,806: root - INFO: Обработка файла: 9_2.csv
+2025-10-02 16:49:01,854: root - INFO: Массовая загрузка файла 9_2.csv в БД завершена
+2025-10-02 16:49:01,855: root - INFO: Файл 9_2.csv удален
+2025-10-02 16:49:01,855: root - INFO: Обработка файла: 9_3.csv
+2025-10-02 16:49:01,906: root - INFO: Массовая загрузка файла 9_3.csv в БД завершена
+2025-10-02 16:49:01,907: root - INFO: Файл 9_3.csv удален
+2025-10-02 16:49:01,907: root - INFO: Обработка файла: 9_4.csv
+2025-10-02 16:49:01,967: root - INFO: Массовая загрузка файла 9_4.csv в БД завершена
+2025-10-02 16:49:01,968: root - INFO: Файл 9_4.csv удален
+2025-10-02 16:49:01,968: root - INFO: Обработка файла: 9_5.csv
+2025-10-02 16:49:02,027: root - INFO: Массовая загрузка файла 9_5.csv в БД завершена
+2025-10-02 16:49:02,028: root - INFO: Файл 9_5.csv удален
+2025-10-02 16:49:02,028: root - INFO: Завершение работы скрипта загрузки данных продаж.
