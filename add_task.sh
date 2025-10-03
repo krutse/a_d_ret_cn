@@ -28,7 +28,7 @@ fi
 
 # script to load data
 # Define the cron job to be added
-CRON_JOB="0 4 * * * $SCRIPT_DIR/venv/python $SCRIPT_DIR/sales_data_load.py >> /var/log/sales_data_load.log 2>&1"
+CRON_JOB="0 4 * * * $SCRIPT_DIR/venv/python $SCRIPT_DIR/sales_data_load.py >> /var/log/sales_data_loader.log 2>&1"
 
 if crontab -u "$CRON_USER" -l 2>/dev/null; then
     # Crontab exists, check if the job is already present

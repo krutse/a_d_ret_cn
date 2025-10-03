@@ -17,7 +17,7 @@ def load_config(filename='config.ini', section='Database'):
         raise Exception('Секция {0} не найдена в файле {1} '.format(section, filename))
     return config
 
-work_dir = pathlib.Path(__file__).resolve().parent
+work_dir = pathlib.Path(__file__).resolve().parent.parent
 db_cfg = load_config(filename=work_dir / 'config.ini')
 
 query = '''

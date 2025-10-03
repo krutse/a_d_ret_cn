@@ -39,19 +39,19 @@ def start_logging(work_path):
     log_file = f'log{datetime.strftime(dt, '%Y%m%d')}.log'
     date_10d = (dt - timedelta(days = 10)) # дата проверки
     # настройка логирования
-    logging.basicConfig(level=logging.INFO, filename=log_path / log_file, filemode="a", format='%(asctime)s: %(name)s - %(levelname)s: %(message)s')
+    logging.basicConfig(level=logging.INFO, filename=log_path / log_file, filemode="a", encoding='utf-8', format='%(asctime)s: %(name)s - %(levelname)s: %(message)s')
     logging.info("===Start logger ====================================")
 
     # получаем список log файлов, проверяем дату создания и удаляем если старше ...
     filelist = log_path.glob('*.log')  
     for file in filelist:
-        try:
-            file_crtime = datetime.fromtimestamp(pathlib.Path(file).stat().st_birthtime).date()
-            if file_crtime < date_10d:
+        file_crtime = datetime.fromtimestamp(pathlib.Path(file).stat().st_birthtime).date()
+        if file_crtime < date_10d:
+            try:
                 file.unlink()
                 logging.info(f"Лог файл {file} : дата создания - {file_crtime} удален")
-        except Exception as err:
-            logging.error(f'Ошибка удаления лог файла {file}')
+            except Exception as err:
+                logging.error(f'Ошибка удаления лог файла {file}')
 
 
 # основной скрипт
